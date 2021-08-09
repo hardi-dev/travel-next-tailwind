@@ -1,14 +1,10 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
+import Hero from "@comps/Hero";
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
-    <h1 className="font-sans text-green-50">Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+    <Hero />
   </Layout>
 );
 
