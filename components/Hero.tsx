@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="bg-right-top bg-no-repeat bg-hero-decore bg-125 md:bg-40 pt-28">
-      <div className="container px-6 mx-auto lg:px-0">
+    <section className="mb-6 bg-right-top bg-no-repeat bg-hero-decore bg-125 md:bg-40 pt-28 lg:mb-14">
+      <div className="container">
         <div className="flex flex-col md:flex-row md:items-center">
-          <div className="flex flex-col order-last gap-y-6 md:gap-y-8 md:order-first md:max-w-xl md:w-6/12">
+          <div className="flex flex-col gap-y-6 md:gap-y-8 md:max-w-xl md:w-6/12">
             <p className="text-sm font-bold uppercase lg:text-base text-orange font-body">
               Best Destinations around the world
             </p>
@@ -49,7 +49,7 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div className="flex order-first md:order-last md:w-6/12">
+          <div className="flex mt-14 md:mt-0 md:w-6/12">
             <div className="md:flex md:items-center md:justify-end">
               <div>
                 <Image

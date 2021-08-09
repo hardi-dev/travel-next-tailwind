@@ -14,7 +14,7 @@ const NavItem = ({ title, url = "/" }: { title: string; url?: string }) => {
 const Navbar: React.FC<Props> = () => {
   return (
     <header className="absolute left-0 right-0 w-full py-4 top-5">
-      <div className="container px-6 mx-auto lg:px-0">
+      <div className="container">
         <div className="grid grid-cols-2">
           <div className="flex items-center w-20 h-auto lg:w-28">
             <Link href="/" passHref>
