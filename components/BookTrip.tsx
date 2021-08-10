@@ -25,7 +25,7 @@ const StepItem: React.FC<StepProps> = ({ title, description, icon }) => {
 
 const BookTrip: React.FC<Props> = () => {
   return (
-    <section className="py-6 lg:py-14">
+    <section className="py-6 lg:py-16">
       <div className="container">
         <div className="items-center grid grid-rows-2 md:grid-rows-none md:grid-cols-2">
           <div>

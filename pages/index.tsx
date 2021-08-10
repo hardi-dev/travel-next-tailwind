@@ -4,6 +4,7 @@ import Hero from "@comps/Hero";
 import Services from "@comps/Services";
 import Destinations from "@comps/Destinations";
 import BookTrip from "@comps/BookTrip";
+import Testimonials from "@comps/Testimonials";
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
@@ -11,6 +12,7 @@ const IndexPage = () => (
     <Services />
     <Destinations />
     <BookTrip />
+    <Testimonials />
   </Layout>
 );
 
