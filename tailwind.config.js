@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "hero-decore": "url('/decore.svg')",
         "hero-display": "url('/scrumble.svg')",
+        "subs-right": "url('/circle-wave-1.svg')",
+        "subs-left": "url('/circle-wave-2.svg')",
       }),
       fontFamily: {
         display: "Volkhov",
@@ -47,6 +49,9 @@ module.exports = {
         screens: {
           lg: "1170px",
         },
+      },
+      borderRadius: {
+        huge: "8rem",
       },
     },
   },

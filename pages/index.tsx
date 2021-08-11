@@ -5,6 +5,8 @@ import Services from "@comps/Services";
 import Destinations from "@comps/Destinations";
 import BookTrip from "@comps/BookTrip";
 import Testimonials from "@comps/Testimonials";
+import Partners from "@comps/Partners";
+import Subscription from "@comps/Subscription";
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
@@ -13,6 +15,8 @@ const IndexPage = () => (
     <Destinations />
     <BookTrip />
     <Testimonials />
+    <Partners />
+    <Subscription />
   </Layout>
 );
 

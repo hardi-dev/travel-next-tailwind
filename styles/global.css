@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.subs-bg {
+  background-image: url("/circle-wave-1.svg"), url("/circle-wave-2.svg");
+  background-repeat: no-repeat;
+  background-position: top right, left bottom;
+}
