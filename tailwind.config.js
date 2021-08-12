@@ -53,6 +53,9 @@ module.exports = {
       borderRadius: {
         huge: "8rem",
       },
+      gridTemplateColumns: {
+        footer: "200px 1fr 200px",
+      },
     },
   },
   variants: {
